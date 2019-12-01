@@ -1,0 +1,54 @@
+/* Selector {
+    Property: value;
+} */
+body {
+    background-image: url(https://images.unsplash.com/photo-1575170174517-93e4989e7867?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+h2, p {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba(212, 106, 106, 0.5);
+    cursor: pointer;
+}
+
+p {
+    line-height: 20px;
+    font-size: 120%;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+p {
+    color: green;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+    background: rgba(255, 0, 0, 0.2);
+}
